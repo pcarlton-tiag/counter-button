@@ -1,5 +1,5 @@
 # counter-button
-
+This project is used as an example in the TIAG node.js/npm guide.
 ## Project setup
 ```
 npm install
