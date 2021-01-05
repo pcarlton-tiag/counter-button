@@ -18,10 +18,29 @@ export default {
 </script>
 
 <style>
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .counter-button {
-    border-radius: 5px;
+    border-radius: 3px;
     outline: none;
-    background-color: none;
-    border: 2px solid #F4D35E;
+    background: none;
+    border: 1px solid #78BC61;
+    padding: .5rem 1rem;
+    opacity:.8;
+    transition: .2s all;
+    user-select: none;
+    color: #78bc61;
+}
+.counter-button:hover{
+    opacity:1;
+    color:white;
+    background: #78BC61;
+    cursor:pointer;
+}
+.counter-button:active{
+    background: #61974e;
 }
 </style>

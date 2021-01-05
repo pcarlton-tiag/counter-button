@@ -1,13 +1,13 @@
 {
     "name": "counter-button",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "private": false,
-    "files": [
-        "/dist"
-    ],
+    "author": "Preston Carlton <preston.carlton@tiag.net>",
+    "main": "dist/counterbutton.common.js",
+    "files": ["/dist"],
     "scripts": {
         "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
+        "build": "vue-cli-service build --target lib --name counter-button src/main.js",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
